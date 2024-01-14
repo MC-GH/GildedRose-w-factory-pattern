@@ -8,8 +8,8 @@ public class StandardItem extends Item{
 
     @Override
     public void updateQuality() {
-        if(quality <= 50 && quality > 0) quality--;
-        if(sellIn < 0) quality--;
+        if(quality > 0) quality--;
+        if(quality > 0 && sellIn <= 0) quality--;
         sellIn--;
     }
 }

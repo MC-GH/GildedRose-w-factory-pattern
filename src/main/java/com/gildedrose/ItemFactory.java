@@ -10,7 +10,7 @@ public class ItemFactory {
         switch(name.toUpperCase()) {
             case "AGED BRIE":
                 return new AgedBrie(name, sellIn,quality);
-            case "BACKSTAGE PASS":
+            case "BACKSTAGE PASSES TO A TAFKAL80ETC CONCERT":
                 return new BackstagePass(name, sellIn,quality);
             case "SULFURAS, HAND OF RAGNAROS":
                 return new Sulfuras(name, sellIn, quality);
