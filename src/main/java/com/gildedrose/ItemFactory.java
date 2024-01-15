@@ -3,7 +3,7 @@ package com.gildedrose;
 public class ItemFactory {
 
     public Item createItem (String name, int sellIn, int quality) {
-        if(name == null || name.isEmpty()) {
+        if(name == null) {
             return null;
         }
 
